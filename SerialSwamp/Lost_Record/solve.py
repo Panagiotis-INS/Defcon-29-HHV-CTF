@@ -1,6 +1,6 @@
 import os
 from PCM2Wav import *
-FILENAME="blyat.csv"
+FILENAME="signals_dec.csv"
 out=PCM2Wav(PCM2Wav.saleae.I2S, FILENAME, "example.wav")
 
 '''
