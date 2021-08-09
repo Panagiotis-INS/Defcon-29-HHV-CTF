@@ -54,6 +54,16 @@ https://e2e.ti.com/support/audio-group/audio/f/audio-forum/995473/pcm1808-q1-ris
 https://github.com/roel0/PCM2Wav-py
 ```
 
+I found a python module:
+
+```PCM2Wav```
+
+and wrote a very simple script to get the ```.csv``` file from saleae and make a wav file from it
+
+Note: The data must be in a 2's complement from the saleae
+
+We open the wav file in audacity play with the settings and get the flag on the spectrogram
+
 ## FLAG: ##
 
 ```HHV{d1n0554ur_f00d_54y5_wh47}```
